@@ -1,0 +1,35 @@
+<?php
+
+namespace DummyNamespace;
+
+use Log1x\AcfComposer\Field;
+use StoutLogic\AcfBuilder\FieldsBuilder;
+
+class DummyClass extends Field {
+    /**
+     * Default field type configuration.
+     *
+     * @return array
+     */
+    protected $defaults = [];
+
+    /**
+     * Fields to be registered with the application.
+     *
+     * @return array
+     */
+    public function fields()
+    {
+        $DummySlug = new FieldsBuilder('DummySlug');
+
+        $DummySlug
+            ->addTrueFalse('enabled')
+            ->addText('label')
+            ->addTextarea('description')
+            ->addRepeater('items')
+                ->addText('item')
+            ->endRepeater();
+
+        return $DummySlug->build();
+    }
+}

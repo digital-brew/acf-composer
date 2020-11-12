@@ -1,0 +1,30 @@
+{
+  "name": "rafflex/acf-composer",
+  "type": "package",
+  "description": "ACF Composer assists you with creating Fields and Blocks with ACF Builder and Roots Sage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Raphael",
+      "email": "rafal@burstofcode.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Rafflex\\AcfComposer\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2.5",
+    "doctrine/inflector": "^1.4",
+    "stoutlogic/acf-builder": "^1.9"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5"
+  },
+  "scripts": {
+    "lint": [
+      "phpcs --ignore=vendor,resources --extensions=php --standard=PSR12 ."
+    ]
+  }
+}
