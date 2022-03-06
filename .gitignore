@@ -1,1 +1,12 @@
-/vendor
+### Miscellaneous
+.DS_Store
+Thumbs.db
+
+### Composer
+vendor/
+
+### IDE
+.idea/
+
+### NodeJS
+node_modules/
