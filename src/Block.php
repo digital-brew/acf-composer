@@ -92,6 +92,13 @@ abstract class Block
     protected $supports = [];
 
     /**
+     * Styles supported by the block.
+     *
+     * @var array
+     */
+    protected $styles = [];
+
+    /**
      * Assets enqueued when the block is shown.
      *
      * @var array
@@ -197,6 +204,7 @@ abstract class Block
                 'mode'            => $this->mode,
                 'align'           => $this->align,
                 'supports'        => $this->supports,
+                'styles'          => $this->styles,
                 'className'       => $this->classname,
                 'enqueue_assets'  => [$this, 'assets'],
                 'render_callback' => function ($block, $content = '', $preview = false, $post = 0) {
