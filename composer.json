@@ -16,7 +16,7 @@
   },
   "require": {
     "php": ">=7.2.5",
-    "doctrine/inflector": "^1.4",
+    "doctrine/inflector": "^2.0",
     "stoutlogic/acf-builder": "^1.9"
   },
   "require-dev": {
