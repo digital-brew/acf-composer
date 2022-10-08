@@ -1,5 +1,5 @@
 {
-  "name": "rafflex/acf-composer",
+  "name": "digital-brew/acf-composer",
   "type": "package",
   "description": "ACF Composer assists you with creating Fields and Blocks with ACF Builder and Roots Sage",
   "license": "MIT",
