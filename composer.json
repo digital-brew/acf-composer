@@ -5,19 +5,19 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Raphael",
-      "email": "rafal@burstofcode.com"
+      "name": "Digital Brew",
+      "email": "info@digitalbrew.io"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Rafflex\\AcfComposer\\": "src/"
+      "DigitalBrew\\AcfComposer\\": "src/"
     }
   },
   "require": {
-    "php": ">=7.2.5",
+    "php": "^7.2.5|^8.0",
     "doctrine/inflector": "^2.0",
-    "stoutlogic/acf-builder": "^1.9"
+    "stoutlogic/acf-builder": "^1.12"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5"
