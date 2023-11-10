@@ -1,6 +1,6 @@
 <?php
 
-namespace Rafflex\AcfComposer\Providers;
+namespace DigitalBrew\AcfComposer\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

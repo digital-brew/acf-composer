@@ -1,6 +1,6 @@
 <?php
 
-namespace Rafflex\AcfComposer;
+namespace DigitalBrew\AcfComposer;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
